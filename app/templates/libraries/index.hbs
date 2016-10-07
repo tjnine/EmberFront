@@ -1,0 +1,14 @@
+<h3>List All</h3>
+
+{{#each model as |library|}}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            {{library.name}}
+        </div>
+
+        <div class="panel-body">
+            <p>{{library.address}}</p>
+            <p>{{library.phone}}</p>
+        </div>
+    </div>
+{{/each}}

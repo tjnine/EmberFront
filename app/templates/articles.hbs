@@ -1,0 +1,20 @@
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-2">
+            <ul class="list-group">
+      {{#each model as |article|}}
+        <li class="list-group-item">{{article.title}}
+            <p>
+                {{ article.body }}
+            </p>
+            </li>
+
+        {{/each}}
+        </ul>
+
+        <p>Test data if it doesn't show up</p> 
+    </div>
+</div>
+
+          
+   
